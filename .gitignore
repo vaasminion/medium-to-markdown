@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Scraper output
+raw/assets/
+state.json
+output/
+
+# Browser profile cache
+browser_profile/
+
+# OS
+.DS_Store
+Thumbs.db

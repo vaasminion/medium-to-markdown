@@ -1,0 +1,8 @@
+services:
+  scraper:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      # Scraped articles and state.json are persisted in this local folder
+      - ${OUTPUT_VOLUME:-./output}:/app/output
