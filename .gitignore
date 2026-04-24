@@ -13,6 +13,23 @@ output/
 # Browser profile cache
 browser_profile/
 
+# graphify intermediate files (not needed in repo)
+.graphify_ast.json
+.graphify_cached.json
+.graphify_uncached.txt
+.graphify_semantic.json
+.graphify_semantic_new.json
+.graphify_detect.json
+.graphify_extract.json
+.graphify_labels.json
+.graphify_analysis.json
+.graphify_transcripts.json
+graphify-out/.graphify_chunk_*.json
+graphify-out/cache/
+
+# Query server state
+.query_server.pid
+
 # OS
 .DS_Store
 Thumbs.db

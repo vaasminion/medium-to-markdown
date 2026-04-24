@@ -1,3 +1,7 @@
+# Core scraper
 scrapling[fetchers]
 python-slugify
 requests
+
+# Knowledge graph (optional — needed for build_full_graph.py and query_graph.py)
+graphifyy
